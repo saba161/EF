@@ -26,6 +26,7 @@ public class DeleteVideoGameCommand
                 context.VideoGames.Remove(remove);
                 context.SaveChanges();
             }
+            Console.WriteLine("Record is Deleted");
         }
     }
 }

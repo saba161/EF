@@ -31,6 +31,9 @@ namespace m
             }else if(command == 'D')
             {
                 new DeleteVideoGameCommand(name, age, id).Detele(id);          
+            }else if(command == 'U')
+            {
+                new UpdateVideoGameCommand(name, age).Update();
             }
         }
     }
