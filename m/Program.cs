@@ -12,6 +12,9 @@ namespace m
             var ageStr = Console.ReadLine();
             int age = Int32.Parse(ageStr);
 
+            Console.WriteLine("Enter Id:");
+            int id = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("Enter Name:");
             var name = Console.ReadLine();
 
@@ -27,7 +30,7 @@ namespace m
                 new CreateVideGameCommand(name, age).Execute();
             }else if(command == 'D')
             {
-                new DeleteVideoGameCommand(name, age).Detele();          
+                new DeleteVideoGameCommand(name, age, id).Detele(id);          
             }
         }
     }

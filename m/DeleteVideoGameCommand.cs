@@ -1,25 +1,29 @@
 using System;
+using System.Linq;
 using m;
 
 public class DeleteVideoGameCommand 
 {
-    private  string name;
-    private  int age;
+    private readonly string name;
+    private readonly int age;
+    private readonly int id;
 
-    public DeleteVideoGameCommand(string name, int age)
+    public DeleteVideoGameCommand(string name, int age, int id)
     {
         this.name = name;
         this.age = age;
+        this.id = id;
     }
 
-    public void Detele()
+    public void Detele(int id)
     {
-          using(VideoGamesDatabaseContext context = new VideoGamesDatabaseContext())
+        using(VideoGamesDatabaseContext context = new VideoGamesDatabaseContext())
         {
-            VideoGame d = context.VideoGames.Find();
+            var d = context.VideoGames;
             if(d != null)
             {
-                context.VideoGames.Remove(d);
+                var remove = d.Where(x => x.Id == id).FirstOrDefault();            
+                context.VideoGames.Remove(remove);
                 context.SaveChanges();
             }
         }
