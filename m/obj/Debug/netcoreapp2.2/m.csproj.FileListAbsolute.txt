@@ -9,3 +9,14 @@
 /Users/macbook/Desktop/m/obj/Debug/netcoreapp2.2/m.AssemblyInfo.cs
 /Users/macbook/Desktop/m/obj/Debug/netcoreapp2.2/m.dll
 /Users/macbook/Desktop/m/obj/Debug/netcoreapp2.2/m.pdb
+/Users/macbook/Desktop/all/c#/EF/m/bin/Debug/netcoreapp2.2/m.deps.json
+/Users/macbook/Desktop/all/c#/EF/m/bin/Debug/netcoreapp2.2/m.runtimeconfig.json
+/Users/macbook/Desktop/all/c#/EF/m/bin/Debug/netcoreapp2.2/m.runtimeconfig.dev.json
+/Users/macbook/Desktop/all/c#/EF/m/bin/Debug/netcoreapp2.2/m.dll
+/Users/macbook/Desktop/all/c#/EF/m/bin/Debug/netcoreapp2.2/m.pdb
+/Users/macbook/Desktop/all/c#/EF/m/obj/Debug/netcoreapp2.2/m.csprojAssemblyReference.cache
+/Users/macbook/Desktop/all/c#/EF/m/obj/Debug/netcoreapp2.2/m.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/all/c#/EF/m/obj/Debug/netcoreapp2.2/m.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/all/c#/EF/m/obj/Debug/netcoreapp2.2/m.AssemblyInfo.cs
+/Users/macbook/Desktop/all/c#/EF/m/obj/Debug/netcoreapp2.2/m.dll
+/Users/macbook/Desktop/all/c#/EF/m/obj/Debug/netcoreapp2.2/m.pdb

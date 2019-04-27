@@ -8,32 +8,27 @@ namespace m
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Enter Age:");
+            var ageStr = Console.ReadLine();
+            int age = Int32.Parse(ageStr);
 
+            Console.WriteLine("Enter Name:");
+            var name = Console.ReadLine();
 
-            using(VideoGamesDatabaseContext context = new VideoGamesDatabaseContext())
+            Console.WriteLine("1) Type R - Read Record  2) Type C - Creat Reccord  3) Type U - Update Record 4) Type D - Detelete Record");
+            var command = Console.Read();
+
+            if (command == 'R') 
             {
-                context.VideoGames.Add(new VideoGame() { Title = "Kogoia" , Platform = 1999});
-                context.SaveChanges();
+                new VideoGameView(name, age).Show();
             }
-        }
-    }
-
-    public class VideoGame {
-        public int Id { get; set; }
-
-        public string Title { get; set; }
-
-        public int Platform { get; set; }
-    }
-
-    public class VideoGamesDatabaseContext : DbContext
-    {
-        public DbSet<VideoGame> VideoGames {get; set;}
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-        optionsBuilder.UseSqlServer("Server=localhost; Database=VideoGames;User=SA; Password=<YourStrong!Passw0rd>");
+            else if (command == 'C')
+            {
+                new CreateVideGameCommand(name, age).Execute();
+            }else if(command == 'D')
+            {
+                new DeleteVideoGameCommand(name, age).Detele();          
+            }
         }
     }
 }
