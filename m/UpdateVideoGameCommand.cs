@@ -4,23 +4,21 @@ using m;
 
 public class UpdateVideoGameCommand 
 {
-    private readonly string name;
-    private readonly int age;
-
-    public UpdateVideoGameCommand(string name, int age)
+    private readonly int id;
+    public UpdateVideoGameCommand(int id, string u_name, int u_age)
     {   
-        this.name = name;
-        this.age = age;
+        this.id = id;
     }
-    public void Update()
+    public void Update(int id, string u_name, int u_age)
     {
-        using(VideoGamesDatabaseContext context = new VideoGamesDatabaseContext())
+        using (VideoGamesDatabaseContext context = new VideoGamesDatabaseContext())
         {
-            var u = context.VideoGames;
-            if(u != null)
+            var entity = context.VideoGames.SingleOrDefault(r => r.Id == this.id);
+            if(entity != null)
             {
-                var update = u.Where(r => r.Title == this.name && r.Platform == age);  
-                Console.WriteLine(this.name + this.age);     
+                entity.Title = u_name;
+                entity.Platform = u_age;
+                context.SaveChanges();
             }
         }
     }
