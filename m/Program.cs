@@ -49,7 +49,7 @@ namespace m
                 Console.WriteLine("Enter Age:");
                 var u_age = Convert.ToInt32(Console.ReadLine());
 
-                new UpdateVideoGameCommand(id, u_name, u_age).Update(id ,u_name, u_age);
+                new UpdateVideoGameCommand(id).Update(id, u_name, u_age);
             }
         }
     }

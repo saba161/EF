@@ -5,7 +5,8 @@ using m;
 public class UpdateVideoGameCommand 
 {
     private readonly int id;
-    public UpdateVideoGameCommand(int id, string u_name, int u_age)
+    
+    public UpdateVideoGameCommand(int id)
     {   
         this.id = id;
     }
