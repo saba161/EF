@@ -6,6 +6,6 @@ public class VideoGamesDatabaseContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=localhost; Database=VideoGames;User=SA; Password=<YourStrong!Passw0rd>");
+        optionsBuilder.UseSqlServer("Server=localhost; Database=VideoGames;User=SA; Password=Password1234");
     }
 }
