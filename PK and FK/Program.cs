@@ -1,5 +1,6 @@
 ﻿using System;
-
+using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
 
 namespace Project_Geolab
 {
@@ -22,16 +23,18 @@ namespace Project_Geolab
                 var ageStr = Console.ReadLine();
                 int age = Int32.Parse(ageStr);
 
-                //Console.WriteLine("Enter your purchase information");
-
-                //Console.WriteLine("Enter ProductName");
-                //var productname = Console.ReadLine();
-
                 //Console.WriteLine("Enter Quantity");
                 //var quantityStr = Console.ReadLine();
                 //int quantity = Int32.Parse(quantityStr); 
 
                 new CreateTechnicCommand(name, email, age).Execute();
+
+            }else if("R" == command)
+            {
+                Console.WriteLine("Enter Email");
+                var email = Console.ReadLine();
+
+                new ShowOrders(email).Show();
             }
         }
     }
