@@ -23,11 +23,14 @@ namespace Project_Geolab
                 var ageStr = Console.ReadLine();
                 int age = Int32.Parse(ageStr);
 
-                //Console.WriteLine("Enter Quantity");
-                //var quantityStr = Console.ReadLine();
-                //int quantity = Int32.Parse(quantityStr); 
+                Console.WriteLine("Enter productname");
+                var productname = Console.ReadLine();
 
-                new CreateTechnicCommand(name, email, age).Execute();
+                Console.WriteLine("Enter Quantity");
+                var quantityStr = Console.ReadLine();
+                int quantity = Int32.Parse(quantityStr); 
+
+                new CreateTechnicCommand(name, email, age, productname, quantity).Execute();
 
             }else if("R" == command)
             {
