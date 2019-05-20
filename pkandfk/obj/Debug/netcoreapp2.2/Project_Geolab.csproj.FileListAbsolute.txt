@@ -1,0 +1,22 @@
+/Users/macbook/Desktop/all/c#/Project_Geolab/bin/Debug/netcoreapp2.2/Project_Geolab.deps.json
+/Users/macbook/Desktop/all/c#/Project_Geolab/bin/Debug/netcoreapp2.2/Project_Geolab.runtimeconfig.json
+/Users/macbook/Desktop/all/c#/Project_Geolab/bin/Debug/netcoreapp2.2/Project_Geolab.runtimeconfig.dev.json
+/Users/macbook/Desktop/all/c#/Project_Geolab/bin/Debug/netcoreapp2.2/Project_Geolab.dll
+/Users/macbook/Desktop/all/c#/Project_Geolab/bin/Debug/netcoreapp2.2/Project_Geolab.pdb
+/Users/macbook/Desktop/all/c#/Project_Geolab/obj/Debug/netcoreapp2.2/Project_Geolab.csprojAssemblyReference.cache
+/Users/macbook/Desktop/all/c#/Project_Geolab/obj/Debug/netcoreapp2.2/Project_Geolab.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/all/c#/Project_Geolab/obj/Debug/netcoreapp2.2/Project_Geolab.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/all/c#/Project_Geolab/obj/Debug/netcoreapp2.2/Project_Geolab.AssemblyInfo.cs
+/Users/macbook/Desktop/all/c#/Project_Geolab/obj/Debug/netcoreapp2.2/Project_Geolab.dll
+/Users/macbook/Desktop/all/c#/Project_Geolab/obj/Debug/netcoreapp2.2/Project_Geolab.pdb
+/Users/macbook/Desktop/all/c#/EF/PK and FK/bin/Debug/netcoreapp2.2/Project_Geolab.deps.json
+/Users/macbook/Desktop/all/c#/EF/PK and FK/bin/Debug/netcoreapp2.2/Project_Geolab.runtimeconfig.json
+/Users/macbook/Desktop/all/c#/EF/PK and FK/bin/Debug/netcoreapp2.2/Project_Geolab.runtimeconfig.dev.json
+/Users/macbook/Desktop/all/c#/EF/PK and FK/bin/Debug/netcoreapp2.2/Project_Geolab.dll
+/Users/macbook/Desktop/all/c#/EF/PK and FK/bin/Debug/netcoreapp2.2/Project_Geolab.pdb
+/Users/macbook/Desktop/all/c#/EF/PK and FK/obj/Debug/netcoreapp2.2/Project_Geolab.csprojAssemblyReference.cache
+/Users/macbook/Desktop/all/c#/EF/PK and FK/obj/Debug/netcoreapp2.2/Project_Geolab.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/all/c#/EF/PK and FK/obj/Debug/netcoreapp2.2/Project_Geolab.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/all/c#/EF/PK and FK/obj/Debug/netcoreapp2.2/Project_Geolab.AssemblyInfo.cs
+/Users/macbook/Desktop/all/c#/EF/PK and FK/obj/Debug/netcoreapp2.2/Project_Geolab.dll
+/Users/macbook/Desktop/all/c#/EF/PK and FK/obj/Debug/netcoreapp2.2/Project_Geolab.pdb
