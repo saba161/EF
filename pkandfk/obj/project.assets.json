@@ -3621,11 +3621,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbook/Desktop/all/c#/EF/PK and FK/Project_Geolab.csproj",
+      "projectUniqueName": "/Users/macbook/Desktop/all/c#/EF/pkandfk/Project_Geolab.csproj",
       "projectName": "Project_Geolab",
-      "projectPath": "/Users/macbook/Desktop/all/c#/EF/PK and FK/Project_Geolab.csproj",
+      "projectPath": "/Users/macbook/Desktop/all/c#/EF/pkandfk/Project_Geolab.csproj",
       "packagesPath": "/Users/macbook/.nuget/packages/",
-      "outputPath": "/Users/macbook/Desktop/all/c#/EF/PK and FK/obj/",
+      "outputPath": "/Users/macbook/Desktop/all/c#/EF/pkandfk/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
