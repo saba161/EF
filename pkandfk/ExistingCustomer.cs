@@ -21,7 +21,7 @@ public class ExistingCustomer
     {
         using(Technic context = new Technic())
         {
-            var ExistingEmail = context.Customers.Where(o => o.Email == this.email);
+            var ExistingEmail = context.Orders.Where(o => o.Customer.Email == this.email);
             Order order = new Order()
             {
                 ProductName = this.productname,

@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Project_Geolab.Migrations
 {
     [DbContext(typeof(Technic))]
-    [Migration("20190516152223_technics")]
-    partial class technics
+    [Migration("20190523134707_Product")]
+    partial class Product
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

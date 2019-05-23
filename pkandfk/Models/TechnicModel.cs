@@ -27,3 +27,8 @@ public class Order
     public Customer Customer { get; set; }
 }
 
+public class Person 
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+}
