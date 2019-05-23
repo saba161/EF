@@ -66,6 +66,33 @@ namespace Project_Geolab
             {
                 Console.WriteLine("Name: {0}", item);
             }
+
+            // var employess = new List<Person>
+            // {
+            //     new Person 
+            //     {
+            //         FirstName = "saba",
+            //         LastName = "koghuashvili",
+            //         Salary = 94000,
+            //         StartDate = DateTime.Parse("1/4/2019")
+            //     },
+
+            //     new Person 
+            //     {
+            //         FirstName = "Gio",
+            //         LastName = "koghuashvili",
+            //         Salary = 20200,
+            //         StartDate = DateTime.Parse("2/6/2002")
+            //     },
+
+            //     new Person 
+            //     {
+            //         FirstName = "giviko",
+            //         LastName = "koghuashvili",
+            //         Salary = 20200,
+            //         StartDate = DateTime.Parse("1/1/1999")
+            //     }
+            // };
         }
     }
 }
