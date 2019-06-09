@@ -60,9 +60,31 @@ namespace Project_Geolab
             //     Console.WriteLine("FirstName = {0} | LastName = {1} | Salary = {2}", item.FirstName, item.LastName, item.Salary);
             // }
 
-            // 3) ****************************************************************
+            // 3) Sorting
+            // using(Technic context = new Technic())
+            // {
+            //     var persons = context.Persons.OrderBy(p => p.FirstName);
+            //     foreach(Person p in persons)
+            //     {
+            //         Console.WriteLine("{0}.{1} - {2}", p.ID ,p.FirstName, p.LastName, p.Salary);
+            //     }
 
-            
+            //     Console.WriteLine("-------------------------------------------");    
+
+            //     var persons2 = context.Persons.OrderByDescending(p => p.FirstName);
+            //     foreach(Person p in persons2)
+            //     {
+            //         Console.WriteLine("{0}.{1} - {2}", p.ID ,p.FirstName, p.LastName, p.Salary);
+            //     }
+
+            //     Console.WriteLine("-------------------------------------------"); 
+
+            //     var persons3 = context.Persons.OrderBy(p => p.Salary);
+            //     foreach(Person p in persons3)
+            //     {
+            //         Console.WriteLine("{0}.{1} - {2}", p.ID ,p.FirstName, p.LastName, p.Salary);
+            //     }
+            // }
         }
     }
 }
